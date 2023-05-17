@@ -6,6 +6,6 @@ class Seller(name: String, age : Int): Worker(name,age),Cleaner {
     }
 
     override fun clean() {
-       println("Продавец убирает")
+       println("Продавец убирает--")
     }
 }
